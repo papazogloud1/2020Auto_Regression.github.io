@@ -1,0 +1,544 @@
+---
+title: "Analysis of  Combined MPG for 2020 Automobiles"
+author: "Dimitri Papazoglou"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: yeti
+    orientation: columns
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+# load necessary packages
+library(ggplot2)
+library(plotly)
+library(reshape2)
+library(plyr)
+library(flexdashboard)  ## you need this package to create dashboard
+
+# read the data set here, I use data: mtcars as an example
+df <- read.csv("C:/Users/dem00n/Downloads/Auto_Data_M.csv", stringsAsFactors=FALSE)
+
+```
+
+Introduction
+=======================================================================
+
+Row 
+-----------------------------------------------------------------------
+### Abstract {data-height=200}
+
+There are many factors that affect an automobiles combined MPG. For example, it's a commonly held belief that the larger the engine size and the more cylinders an engine has, the lower the miles per gallon the car will have. The focus of this study is to analyze relationship of various variables with combined MPG using regression. Multiple regressors will be analyzed, such as engine displacement, number of cylinders and combined CO2; combined MPG is the response variable. 
+
+
+### Introduction {data-height=400}
+
+According to the Environmental Protection Agency (EPA), the difference between a car that gets 20 MPG and 30 MPG is ~$650 a year. [1] Fuel economy is important for a magnitude of reasons, not only does the driver of the car save money with a more fuel-efficient car, but a better fuel economy increases energy sustainability and reduce climate change [2]. Engine downsizing is a common trend in automobiles, as it is believed that smaller engines consume less fuel, leading to better combined MPG. Engine downsizing refers to not only reducing engine displacement, but in some cases, also reducing the number of cylinders [3]. This study is interested in analyzing the effect of multiple regressors such as Combined CO2, Engine Displacement, Number of cylinders will effect combined MPG using a multiple regression model. The dataset comes from the EPA and is limited to automobiles of the model year 2020, featuring 945 automobiles.[4].  
+
+There is a secondary purpose to this study - regressors chosen were based on intuition, this judgment will lead to a regression model that will not perform well. The study will go over how to explore the data set and showcase various techniques to pick which regressors to use and not to use, this will lead us to a regression model that is appropriate for analysis.
+
+
+### The Dataset {data-height=300}
+
+```{r}
+
+head(df)
+```
+Row {.tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Boxplot of Automotive Data Part 1
+
+```{r}
+okay= df[,-c(5,7,6)]
+
+p <- ggplot(melt(okay), aes(variable, value)) + geom_boxplot(fill="#0377fc",color="black") +theme(axis.text=element_text(size=12), axis.title=element_text(size=14,face="bold"))
+ggplotly(p)
+
+
+
+```
+
+### Boxplot of Automotive Data Part 2
+
+```{r}
+okay1= df[,-c(1,2,3,4)]
+
+p <- ggplot(melt(okay1), aes(variable, value)) + geom_boxplot(fill="#0377fc",color="black") +theme(axis.text=element_text(size=12), axis.title=element_text(size=14,face="bold"))
+ggplotly(p)
+
+
+
+```
+
+### Scatterplot of Data
+
+```{r}
+A <-df[,-c(8)]
+plot(A,
+     main= "Scatterplot of Regressors")
+```
+
+
+
+Diagnostics 
+=======================================================================
+
+Column {data-width=200}
+-----------------------------------------------------------------------
+
+### Diagnostic plots 
+
+To determine if the data set chosen is appropriate for regression analysis, model diagnostics are performed on all variables to fit the regression model. These variables are Engine displacement, Combined CO2, Number of cylinders, Number of gears in transmissions, EPA (EPA calculated annual fuel cost), Money (Money spent over 5 years on fuel cost).
+
+**Linear Assumption:** 
+
+Heavy distinct patterns in right side of graph between residual and fitted values, indicating that the linear model may not be appropriate. 
+
+**Normality Assumption:**
+
+The residual points should follow a 45-degree line. Past theoretical quantiles value of 2, the points deviate, indicating a lack of normality. 
+
+**Equal Variance Assumption:**
+
+Similar to the linear assumption, the data has heavy patterns and a curved horizontal line, equal variance cannot be assumed. 
+
+**Cook's Distance Plot:**
+
+Only one influential point is present, which is data point 9. 
+
+**Data Exploration:**
+
+At this stage, the model is going to need a lot of correcting to be assumed linear, have normality and equal variance. The first step  is to recognize which regressors are appropriate for this model. 
+
+**Engine Displ and Number of Cylinders vs. Comb MPG:**
+
+In this boxplot, there is a linear relationship between the size of the engine (displacement) in liters and the number of cylinders when compared to combined MPG. This type of relationship is important for choosing the correct regressors for the regression model, since we are trying to recognize relationships between combined MPG and other variables. 
+
+
+**Combined CO2 vs. Combined MPG:**
+
+A linear relationship is present for combined CO2 and combined MPG. As CO2 increases, the combined MPG decreases. 
+
+**Gears vs. Combined MPG:**
+
+For this comparison, a linear relationship is not present. Due to this lack of a distinct relationship, gears will be removed from the next model. 
+
+Regressors EPA and Money are discussed in the next page Correct Data.
+
+
+
+Column {.tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Linear Assumption
+```{r}
+fit <-lm(CombMPG~., df)
+
+
+res <- ggplot(data = fit, aes(x = fitted(fit), y = resid(fit))) +
+  geom_point(size = 1, color="blue") +
+  xlab("Fitted Values") + ylab ("Residuals") + ggtitle("Residuals vs Fitted")
+res <- res+geom_hline(yintercept=0)
+
+(gg <- ggplotly(res))
+
+```
+
+### Normality Assumption
+```{r}
+
+plot(fit,2)
+
+```
+
+### Scale-Location
+```{r}
+
+plot(fit,3)
+```
+
+### Cook's D Plot
+```{r}
+
+plot(fit,4)
+```
+
+### Combined MPG vs. Engine Displacment and Number of Cylinders
+
+``` {r}
+Auto <- read.csv("C:/Users/dem00n/Downloads/Auto_Data.csv")
+Auto <- na.omit(Auto)
+Auto$Type <- ifelse(grepl("Auto", Auto$Transmission), 1, 0)
+Auto <- Auto[,-c(5,7,8)]
+
+Auto$CombCO2 <- log(Auto$CombCO2)
+df <- apply(Auto[,c(1,4,5)], 2, scale)
+df <- as.data.frame(cbind(df, Cyl=Auto$Cyl, Gears=Auto$Gears, CombMPG=Auto$CombMPG))
+
+df$Cyl <- as.factor(df$Cyl)
+
+
+
+library(plotly)
+f <- list(
+  family = "Times New Roman",
+  size = 20,
+  color = "#000000"
+)
+y <- list(
+  title = "Combined MPG",
+  titlefont = f,
+  size = 28
+)
+x <- list(
+  title = "Engine Displacment (Liters)",
+  titlefont = f ,
+  size = 18
+)
+
+p <- plot_ly(df, y = ~CombMPG, x = ~EngDispl, color= ~Cyl, type = "box")%>%
+  layout(xaxis =x, yaxis=y)
+
+ggplotly(p)
+
+```
+
+
+### Combined MPG vs. Combined CO2
+``` {r}
+
+library(plotly)
+f <- list(
+  family = "Times New Roman",
+  size = 20,
+  color = "#000000"
+)
+y <- list(
+  title = "Combined MPG",
+  titlefont = f
+)
+x <- list(
+  title = "Combined CO2",
+  titlefont = f
+)
+
+p <- plot_ly(df, y = ~CombMPG, x = ~CombCO2, type = "box", mode = "markers")%>%
+  layout(xaxis =x, yaxis=y)
+
+ggplotly(p)
+
+```
+
+### Gears vs. Combined MPG
+``` {r}
+
+library(plotly)
+f <- list(
+  family = "Times New Roman",
+  size = 20,
+  color = "#000000"
+)
+y <- list(
+  title = "Combined MPG",
+  titlefont = f
+)
+x <- list(
+  title = "Number of Gears",
+  titlefont = f
+)
+
+p <- plot_ly(df, x = ~Gears, y = ~CombMPG, type = "box", mode = "markers")%>%
+  layout(xaxis =x, yaxis=y)
+
+ggplotly(p)
+
+```
+
+Correcting The Model  
+=======================================================================
+
+Column {.sidebar data-width=400}
+-----------------------------------------------------------------------
+
+**Removing regressors:**
+EPA and Money variables were found to have negative effects on the regression model after experimenting with removal of these variables. It was decided to remove EPA and Money from this model. A scaling issue can still be seen from the boxplot with the removed regressors, this will be fixed using scaling. 
+
+**Scaling Regressors:**
+
+After removing the EPA and Money regressors, the scaling of box plot is still off. This can be corrected by scaling the regressors of Eng Displ, CombMPG and CombCO2. Number of cylinders is not scaled due to the variable being changed to a category for the regression model to analyze the effect of each category of number of cylinders on the model. 
+
+**Transform of Comb CO2:**
+Analyzing the scatterplot relationship of CombMPG and CombCO2, a curved relationship is seen. To lessen this curvature, variance-stabilizing transportation using natural log of y is performed.  
+
+**Interaction: EngDispl:CombCO2:**
+
+Comparing engine displacement and CombCO2 reveals a positive association between both variables, indicating there can is an interaction between both variables that can be utilized in the regression model. 
+
+**Diagonstic check/removing doubles:**
+
+The data set was reduced from 786 data points to 494 after removal of all non-unique data points. Removing non-unique data ensures better accuracy for the model. 
+
+After running through removal of regressors, applying a transform to CO2 and scaling some regressors, we run the diagnostic test again to check for any other issue. In our normality assumption plot, we can see that outliers are still present. All the outliers are large SUV's and trucks. To remove these outliers, all large SUV's and trucks must be removed from the dataset. It was determined that removal of large SUV’s and truck is appropriate due to the negative effect on the model. A more ideal model would contain classes of vehicles with weights to make up for these modeling issues. 
+
+**Diagnostics without Trucks/SUV's:**
+
+Removal of the large SUV's and trucks resulted in a positive change for the diagnostic plots. The linear assumption data is spread out and the line is horizontal, 
+
+**Linear Assumption:** 
+
+Data is spread out, linearity can be assumed. 
+
+**Normality Assumption:**
+
+Majority of the datapoints follow the 45-degree line, only one outlier is present - normality can be assumed.  
+
+**Equal Variance Assumption:**
+
+Similar to the linear assumption, data is spread out - equal variance is assumed. 
+
+**Cook's Distance Plot:**
+
+No influential outliers present for Cook's distance.
+
+
+ 
+Column {.tabset .tabset-fade data-height=350}
+-----------------------------------------------------------------------
+
+### Removing Regressors
+```{r}
+df <- read.csv("C:/Users/dem00n/Downloads/Auto_Data.csv", stringsAsFactors=FALSE)
+AB <-df[,-c(3,5,7,8)]
+
+
+
+p <- ggplot(melt(AB), aes(variable, value)) + geom_boxplot(fill="#0377fc",color="black")+theme(axis.text=element_text(size=12), axis.title=element_text(size=14,face="bold"))
+ggplotly(p)
+
+```
+
+### Scaling Data
+
+```{r}
+Auto <- read.csv("C:/Users/dem00n/Downloads/Auto_Data.csv")
+Auto <- na.omit(Auto)
+Auto$Type <- ifelse(grepl("Auto", Auto$Transmission), 1, 0)
+Auto <- Auto[,-c(5,7,8)]
+
+Auto$CombCO2 <- log(Auto$CombCO2)
+df <- apply(Auto[,c(1,4,5)], 2, scale)
+df <- as.data.frame(cbind(df, Cyl=Auto$Cyl, CombMPG=Auto$CombMPG))
+
+
+
+
+p <- ggplot(melt(df), aes(variable, value)) + geom_boxplot(fill="#0377fc",color="black")+theme(axis.text=element_text(size=12), axis.title=element_text(size=14,face="bold"))
+ggplotly(p)
+```
+
+### Pre Transform of Comb CO2
+```{r}
+df <- read.csv("C:/Users/dem00n/Downloads/Auto_Data_M.csv", stringsAsFactors=FALSE)
+plot(df$CombCO2,df$CombMPG)
+
+
+```
+
+
+### Post Transform of Comb CO2
+```{r}
+df$CombCO2 <- log(df$CombCO2)
+plot(df$CombCO2,df$CombMPG)
+```
+
+### Interaction: Eng Displ:CombCO2
+
+```{r}
+
+plot(df$EngDispl,df$CombCO2)
+```
+
+### Diagonstic check
+
+```{r}
+
+df$Cyl <- as.factor(df$Cyl)
+df_new <- df[,c(1,2,3,4,6)]
+df_new <- unique(df_new)
+df_new$CombMPG <- scale(df_new$CombMPG)
+fit1 <-lm(CombMPG~EngDispl+CombCO2+EngDispl*CombCO2+Cyl, df_new) 
+
+plot(fit1,2)
+```
+
+
+Row {{.tabset .tabset-fade data-height=350}
+-----------------------------------------------------------------------
+
+### Linear Assumption
+```{r}
+Auto <- read.csv("C:/Users/dem00n/Downloads/Auto_Notrucks.csv")
+Auto <- na.omit(Auto)
+Auto$Type <- ifelse(grepl("Auto", Auto$Transmission), 1, 0)
+Auto <- Auto[,-c(1,2,6,8,9)]
+
+Auto$CombCO2 <- log(Auto$CombCO2)
+df <- apply(Auto[,c(1,3,5)], 2, scale)
+df <- as.data.frame(cbind(df, Cyl=Auto$Cyl, Gears=Auto$Gears, CombMPG=Auto$CombMPG, Type=Auto$Type))
+df$Type <- as.factor(df$Type)
+df$Cyl <- as.factor(df$Cyl)
+
+
+df_new <- df[,c(1,2,3,4,6)]
+df_new <- unique(df_new)
+df_new$CombMPG <- scale(df_new$CombMPG)
+fit1 <-lm(CombMPG~EngDispl+CombCO2+EngDispl*CombCO2+Cyl, df_new) 
+
+plot(fit1,1)
+
+```
+
+### Normality Assumption
+```{r}
+
+plot(fit1,2)
+```
+
+### Scale-Location
+```{r}
+
+plot(fit1,3)
+```
+
+### Cook's D Plot
+```{r}
+
+plot(fit1,4)
+```
+
+
+Regression Model
+=======================================================================
+
+Row 
+-----------------------------------------------------------------------
+### Fitting the Regression Model
+```{r}
+summary(fit1)
+```
+
+**Hypothesis testing:**
+
+$\beta_{1}$=Engine Displacment,  $\beta_{2}$= Combined CO2, $\beta_{3}$= Number of Cylinders, $\beta_{4}$= Number of Cylinders:Combined CO2
+
+$H_{0}$: $\beta_{1}=\beta_{2}=\beta_{3}=\beta_{4}=0$ vs. $H_{1}$: At least one of $\beta_{i}\neq0, i=1,2,3,4$
+
+**Stastical Conclusion:** F-statistic: 4085, P-value: 2.2e-16 < 0.01. Level of signficance is 0.01. We reject the null hypothesis ($H_{0}$).
+
+**Genereal Conclusion:** We have significant evidence to conclude that the regression model for combined MPG with the variables of engine displacement, combined CO2, number of cylinders and interaction of engine displacement:combined CO2 can predict the combined MPG better than just using the mean of combined MPG. 
+
+
+
+Row 
+-----------------------------------------------------------------------
+### T-test {data-height=125}
+
+Using t tests with a level of significance of 0.5, the contribution of each regressor of the model is determined: 
+
+EngDispl is significant when considering the effects of other variables. CombCO2 is significant when considering the effects of other variables. Cyl4 through Cyl16 are not significant when considering the effects of other variables. The interaction between EngDispl and CombCO2 is significant when considering other variables.
+
+
+### Coefficient of Determination {data-height=50}
+
+R^2^ is 0.9907 About 99.07% of the variation in the combined MPG was explained by the given variables using the regression model.
+
+### 95% Confidence Interval {data-height=300}
+``` {r #6 }
+confint(fit1, level=0.95)
+```
+We are 95% confident that the combined MPG decreases between 0.06697 and 0.00052 per each liter in engine displacment and that combined CO2 decreases -1.05636 and -1.01874 parts-per-million after allowing for the effects of number of cylinders and the interaction of engine displacment and combined CO2 in the regression model. 
+
+### Validation Set Approach {data-height=175}
+``` {r  }
+## Valdiation General Procedure
+library(caret)
+
+set.seed(2019)
+train.index <-sample(1:200,150)
+train_df<- df_new[train.index,]
+test_df<- df_new[-train.index,]
+
+model <-lm(CombMPG~EngDispl+CombCO2+EngDispl*CombCO2+Cyl, train_df)
+
+
+predictions <- predict(model, test_df)
+data.frame(R2 = R2(predictions, test_df$CombMPG), RMSE = RMSE(predictions, test_df$CombMPG),
+           MAE = MAE(predictions,test_df$CombMPG))
+```
+
+
+By utilizing the validation set approach, we can compare R^2^ from the validation approach to our regression model to see if our regression model is performing well. Considering that our regression model R^2^ is 0.9907 and validation R^2^ is 0.9866, the final regression model performance is good.
+
+
+
+
+Conclusion  
+=======================================================================
+Row {{.tabset .tabset-fade data-height=350}
+-----------------------------------------------------------------------
+ 
+
+### Conclusion {font-size=18}
+
+The purpose of this study was to showcase how certain regressors effect combined MPG. Initially the dataset started with multiple regressors that were chosen off intuition. Various issues arose with the regression model, techniques such as transformation, scaling and data exploration were used to create the ideal regression model. The final model only used four regressors: engine displacement, combined CO2, number of cylinders and a interaction of combined CO2:engine displacement. We have significant evidence to conclude that the regression model for combined MPG with the variables of engine displacement, combined CO2 and number of cylinders can predict the combined MPG better than just using the mean of combined MPG. 
+
+Number of cylinders was not significant in our regression model, but it was not removed from the model for a number of reasons. Previously it was shown that there is a relationship between combined MPG and number of cylinders. Removing number of cylinders from the final regression model would have caused engine displacement to be non-significant. 
+
+The next two tabs are a comparison of regression diagnostics of the original model and the final model.
+
+
+
+
+
+### Original Model
+
+``` {r}
+plot(fit,1)
+plot(fit,2)
+plot(fit,3)
+```
+
+### Final Model
+
+``` {r}
+plot(fit1,1)
+plot(fit1,2)
+plot(fit1,3)
+
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Future Suggestions
+
+Other ideal regressors for this model would be automobile weight and horsepower. The dataset did not consider these variables, but it is believed that automobile weight and horsepower have a considerable effect on combined MPG. You could also group certain cars by weight and perform testing, with the removal of trucks and SUV's, trucks and SUV's would be a group by itself. The group classifications could help with achieving a more accurate and significant regression model. 
+
+It would also be interesting to create the same model for different model year cars, such as 2019 and 2018. Perform a comparison to see the differences of the effect of regressors on combined MPG over time.
+
+
+### References 
+
+
+[1] “Choosing a More Fuel-Efficient Vehicle.” Www.fueleconomy.gov - the Official Government Source for Fuel Economy Information, EPA, https://www.fueleconomy.gov/feg/choosing.jsp.
+
+[2] “Why Is Fuel Economy Important?” Www.fueleconomy.gov - the Official Government Source for Fuel Economy Information, EPA, https://www.fueleconomy.gov/feg/why.shtml.
+
+[3] Squatriglia, Chuck. “Three Is the New Four as Engines Downsize.” Wired, Conde Nast, 3 June 2017, https://www.wired.com/2011/09/three-is-the-new-four-as-engines-downsize/.
+
+[4] “Download Fuel Economy Data.” Www.fueleconomy.gov - the Official Government Source for Fuel Economy Information, EPA, https://www.fueleconomy.gov/feg/download.shtml.
+
+
+
+
