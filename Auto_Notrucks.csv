@@ -1,0 +1,722 @@
+Division,Carline,EngDispl,Cyl,CombMPG,Transmission ,Gears,EPA,Money,CombCO2
+Acura,NSX,3.5,6,21,Automated Manual- Selectable (e.g. Automated Manual with paddles),9,2300,4000,420
+ALFA ROMEO,4C,1.8,4,28,Automated Manual,6,1750,1250,317
+Aston Martin Lagonda Ltd,Vantage V8,4.0,8,20,Semi-Automatic,8,2450,4750,435
+Audi,R8,5.2,10,16,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,3050,7750,556
+Audi,R8 Spyder,5.2,10,16,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,3050,7750,556
+Audi,TT Roadster quattro,2.0,4,26,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1550,250,340
+BMW,Z4 M40i,3.0,6,26,Semi-Automatic,8,1900,2000,334
+BMW,Z4 sDrive30i,2.0,4,27,Semi-Automatic,8,1800,1500,324
+Bugatti,Chiron,8.0,16,11,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,4450,14750,840
+"Ferrari North America, Inc.",488 Pista,3.9,8,17,Automated Manual,7,2850,6750,524
+"Ferrari North America, Inc.",488 Pista Spider,3.9,8,17,Automated Manual,7,2850,6750,531
+"Ferrari North America, Inc.",812 Superfast,6.5,12,13,Automated Manual,7,3750,11250,661
+"Ferrari North America, Inc.",F8 Tributo,3.9,8,16,Automated Manual,7,3050,7750,541
+FIAT,124 Spider,1.4,4,29,Automatic,6,1700,1000,302
+FIAT,124 Spider,1.4,4,30,Manual,6,1600,500,298
+Jaguar,F-TYPE AWD Convertible,5.0,8,18,Semi-Automatic,8,2700,6000,481
+Jaguar,F-TYPE AWD Coupe,5.0,8,18,Semi-Automatic,8,2700,6000,481
+Jaguar,F-TYPE Convertible,2.0,4,26,Semi-Automatic,8,1900,2000,346
+Jaguar,F-TYPE Convertible,3.0,6,23,Semi-Automatic,8,2100,3000,390
+Jaguar,F-TYPE Coupe,2.0,4,26,Semi-Automatic,8,1900,2000,346
+Jaguar,F-TYPE Coupe,3.0,6,23,Semi-Automatic,8,2100,3000,390
+Jaguar,F-TYPE S AWD Convertible,3.0,6,21,Semi-Automatic,8,2300,4000,426
+Jaguar,F-TYPE S AWD Coupe,3.0,6,21,Semi-Automatic,8,2300,4000,426
+Jaguar,F-TYPE S Convertible,3.0,6,22,Semi-Automatic,8,2200,3500,407
+Jaguar,F-TYPE S Coupe,3.0,6,22,Semi-Automatic,8,2200,3500,407
+Jaguar,F-TYPE SVR AWD Convertible,5.0,8,18,Semi-Automatic,8,2700,6000,481
+Jaguar,F-TYPE SVR AWD Coupe,5.0,8,18,Semi-Automatic,8,2700,6000,481
+Lamborghini,Aventador Coupe,6.5,12,11,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,4450,14750,787
+Lamborghini,Aventador Roadster,6.5,12,11,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,4450,14750,806
+Lamborghini,Huracan,5.2,10,15,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,3250,8750,596
+Lamborghini,Huracan Spyder,5.2,10,15,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,3250,8750,596
+Mercedes-Benz,AMG GT (coupe),4.0,8,18,Automated Manual,7,2700,6000,488
+Mercedes-Benz,AMG GT (roadster),4.0,8,18,Automated Manual,7,2700,6000,488
+Mercedes-Benz,AMG GT C (coupe),4.0,8,17,Automated Manual,7,2850,6750,506
+Mercedes-Benz,AMG GT C (roadster),4.0,8,17,Automated Manual,7,2850,6750,525
+Mercedes-Benz,AMG GT R (coupe),4.0,8,17,Automated Manual,7,2850,6750,526
+Mercedes-Benz,AMG GT R (roadster),4.0,8,17,Automated Manual,7,2850,6750,526
+Mercedes-Benz,AMG SLC 43,3.0,6,23,Automatic,9,2100,3000,383
+Mercedes-Benz,SL 450,3.0,6,22,Automatic,9,2200,3500,395
+Mercedes-Benz,SL 550,4.7,8,20,Automatic,9,2450,4750,435
+NISSAN,370Z,3.7,6,22,Semi-Automatic,7,2200,3500,406
+NISSAN,370Z,3.7,6,20,Manual,6,2450,4750,445
+NISSAN,370Z Roadster,3.7,6,21,Semi-Automatic,7,2300,4000,429
+TOYOTA,Supra 3.0,3.0,6,26,Semi-Automatic,8,1900,2000,334
+Aston Martin Lagonda Ltd,DB11 V12,5.2,12,18,Semi-Automatic,8,2700,6000,497
+Aston Martin Lagonda Ltd,DB11 V8,4.0,8,20,Semi-Automatic,8,2450,4750,431
+Aston Martin Lagonda Ltd,DBS,5.2,12,17,Semi-Automatic,8,2850,6750,522
+Bentley,Continental GT Convertible,4.0,8,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2550,5250,469
+"Ferrari North America, Inc.",GTC4Lusso,6.3,12,13,Automated Manual,7,3750,11250,661
+"Ferrari North America, Inc.",GTC4Lusso T,3.9,8,17,Automated Manual,7,2850,6750,524
+"Ferrari North America, Inc.",Portofino,3.9,8,18,Automated Manual,7,2700,6000,485
+Lotus Cars Ltd,Evora,3.5,6,20,Semi-Automatic,6,2450,4750,451
+Lotus Cars Ltd,Evora,3.5,6,19,Manual,6,2550,5250,468
+Lotus Cars Ltd,Evora GT,3.5,6,20,Semi-Automatic,6,2450,4750,438
+Lotus Cars Ltd,Evora GT,3.5,6,20,Manual,6,2450,4750,441
+Mini,COOPER CONVERTIBLE,1.5,3,31,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1550,250,281
+Mini,COOPER S CONVERTIBLE,2.0,4,29,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1700,1000,304
+Mini,JOHN COOPER WORKS CONVERTIBLE,2.0,4,28,Semi-Automatic,8,1750,1250,313
+Porsche,911 Carrera 4S,3.0,6,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2450,4750,445
+Porsche,911 Carrera 4S Cabriolet,3.0,6,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2450,4750,445
+Porsche,911 Carrera S,3.0,6,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2450,4750,444
+Porsche,911 Carrera S Cabriolet,3.0,6,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2450,4750,444
+Subaru,BRZ,2.0,4,27,Semi-Automatic,6,1800,1500,322
+Subaru,BRZ,2.0,4,24,Manual,6,2050,2750,372
+Subaru,BRZ tS,2.0,4,23,Manual,6,2100,3000,384
+TOYOTA,86,2.0,4,27,Semi-Automatic,6,1800,1500,328
+TOYOTA,86,2.0,4,24,Manual,6,2050,2750,373
+Audi,A3,2.0,4,30,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1350,,293
+Audi,A3 Cabriolet quattro,2.0,4,25,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1600,500,359
+Audi,A3 quattro,2.0,4,25,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1600,500,359
+Audi,S3,2.0,4,25,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1950,2250,358
+Audi,S5,3.0,6,23,Semi-Automatic,8,2100,3000,393
+Audi,S5 Cabriolet,3.0,6,22,Semi-Automatic,8,2200,3500,405
+Audi,TT Coupe quattro,2.0,4,26,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1550,250,340
+Audi,TTS Coupe,2.0,4,25,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1950,2250,354
+Bentley,Continental GT,4.0,8,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2550,5250,469
+BMW,230i Convertible,2.0,4,27,Semi-Automatic,8,1800,1500,327
+BMW,230i Coupe,2.0,4,27,Semi-Automatic,8,1800,1500,324
+BMW,230i Coupe,2.0,4,25,Manual,6,1950,2250,356
+BMW,230i xDrive Convertible,2.0,4,24,Semi-Automatic,8,2050,2750,361
+BMW,230i xDrive Coupe,2.0,4,24,Semi-Automatic,8,2050,2750,361
+BMW,430i Convertible,2.0,4,27,Semi-Automatic,8,1800,1500,327
+BMW,430i xDrive Convertible,2.0,4,26,Semi-Automatic,8,1900,2000,344
+BMW,440i Convertible,3.0,6,24,Semi-Automatic,8,2050,2750,361
+BMW,440i xDrive Convertible,3.0,6,23,Semi-Automatic,8,2100,3000,394
+BMW,840i Convertible,3.0,6,24,Semi-Automatic,8,2050,2750,361
+BMW,840i Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,347
+BMW,840i xDrive Convertible,3.0,6,23,Semi-Automatic,8,2100,3000,388
+BMW,840i xDrive Coupe,3.0,6,23,Semi-Automatic,8,2100,3000,380
+BMW,M2 Competition Coupe,3.0,6,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2550,5250,471
+BMW,M2 Competition Coupe,3.0,6,20,Manual,6,2450,4750,440
+BMW,M240i Convertible,3.0,6,25,Semi-Automatic,8,1950,2250,353
+BMW,M240i Convertible,3.0,6,22,Manual,6,2200,3500,408
+BMW,M240i Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,353
+BMW,M240i Coupe,3.0,6,22,Manual,6,2200,3500,408
+BMW,M240i Coupe M Performance,3.0,6,25,Semi-Automatic,8,1950,2250,353
+BMW,M240i Coupe M Performance,3.0,6,22,Manual,6,2200,3500,408
+BMW,M240i xDrive Convertible,3.0,6,25,Semi-Automatic,8,1950,2250,356
+BMW,M240i xDrive Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,356
+BMW,M240i xDrive Coupe M Performance,3.0,6,25,Semi-Automatic,8,1950,2250,356
+BMW,M4 Convertible,3.0,6,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2550,5250,481
+BMW,M4 Convertible,3.0,6,20,Manual,6,2450,4750,450
+BMW,M4 Convertible Competition,3.0,6,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2550,5250,481
+BMW,M4 Convertible Competition,3.0,6,20,Manual,6,2450,4750,450
+BMW,M8 Competition Convertible,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M8 Competition Coupe,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M8 Convertible,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M8 Coupe,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M850i xDrive Convertible,4.4,8,20,Semi-Automatic,8,2450,4750,450
+BMW,M850i xDrive Coupe,4.4,8,20,Semi-Automatic,8,2450,4750,435
+Chevrolet,CAMARO,2.0,4,25,Semi-Automatic,8,1950,2250,353
+Chevrolet,CAMARO,2.0,4,23,Manual,6,2100,3000,378
+Chevrolet,CAMARO,3.6,6,22,Semi-Automatic,10,1850,1750,397
+Chevrolet,CAMARO,3.6,6,20,Manual,6,2000,2500,451
+Chevrolet,CAMARO,6.2,8,20,Semi-Automatic,10,2450,4750,451
+Chevrolet,CAMARO,6.2,8,16,Semi-Automatic,10,3050,7750,571
+Chevrolet,CAMARO,6.2,8,19,Manual,6,2550,5250,477
+Chevrolet,CAMARO,6.2,8,16,Manual,6,3050,7750,565
+Chevrolet,SPARK,1.4,4,33,Continuously Variable,1,1250,,269
+Chevrolet,SPARK,1.4,4,33,Manual,5,1250,,273
+Chevrolet,SPARK ACTIV,1.4,4,33,Continuously Variable,1,1250,,269
+Chevrolet,SPARK ACTIV,1.4,4,32,Manual,5,1250,,278
+Ford,MUSTANG,2.3,4,25,Semi-Automatic,10,1600,500,354
+Ford,MUSTANG,2.3,4,24,Manual,6,1700,1000,364
+Ford,MUSTANG,5.0,8,19,Semi-Automatic,10,2150,3250,472
+Ford,MUSTANG,5.0,8,18,Manual,6,2250,3750,493
+Ford,MUSTANG BULLITT,5.0,8,17,Manual,6,2400,4500,514
+Ford,MUSTANG CONVERTIBLE,2.3,4,23,Semi-Automatic,10,1750,1250,387
+Ford,MUSTANG CONVERTIBLE,2.3,4,23,Manual,6,1750,1250,386
+Ford,MUSTANG CONVERTIBLE,5.0,8,18,Semi-Automatic,10,2250,3750,484
+Ford,MUSTANG HO CONVERTIBLE,2.3,4,23,Semi-Automatic,10,1750,1250,386
+Ford,MUSTANG HO CONVERTIBLE,2.3,4,22,Manual,6,1850,1750,406
+Ford,MUSTANG HO COUPE,2.3,4,23,Semi-Automatic,10,1750,1250,386
+Ford,MUSTANG HO COUPE,2.3,4,23,Manual,6,1750,1250,389
+Ford,SHELBY GT350 MUSTANG,5.2,8,16,Manual,6,3050,7750,550
+Ford,SHELBY GT500 MUSTANG,5.2,8,14,Automated Manual,7,3500,10000,631
+INFINITI,Q60,3.0,6,22,Semi-Automatic,7,2200,3500,397
+INFINITI,Q60 AWD,3.0,6,22,Semi-Automatic,7,2200,3500,409
+INFINITI,Q60 AWD RED SPORT,3.0,6,21,Semi-Automatic,7,2300,4000,424
+INFINITI,Q60 RED SPORT,3.0,6,22,Semi-Automatic,7,2200,3500,405
+LEXUS,LC 500,5.0,8,19,Semi-Automatic,10,2550,5250,473
+LEXUS,LC 500h,3.5,6,30,Selectable Continuously Variable (e.g. CVT with paddles),10,1600,500,298
+LEXUS,RC F,5.0,8,19,Semi-Automatic,8,2550,5250,459
+Mercedes-Benz,A 220,2.0,4,28,Automatic,7,1750,1250,313
+Mercedes-Benz,A 220 4MATIC,2.0,4,28,Automatic,7,1750,1250,324
+Mercedes-Benz,AMG C 43 4MATIC (convertible),3.0,6,21,Automatic,9,2300,4000,423
+Mercedes-Benz,AMG C 43 4MATIC (coupe),3.0,6,22,Automatic,9,2200,3500,411
+Mercedes-Benz,AMG C 63 (convertible),4.0,8,20,Automatic,9,2450,4750,452
+Mercedes-Benz,AMG C 63 (coupe),4.0,8,20,Automatic,9,2450,4750,444
+Mercedes-Benz,AMG C 63 S (convertible),4.0,8,20,Automatic,9,2450,4750,452
+Mercedes-Benz,AMG C 63 S (coupe),4.0,8,20,Automatic,9,2450,4750,444
+Mercedes-Benz,AMG E 53 4MATIC+ (Convertible),3.0,6,23,Automatic,9,2100,3000,394
+Mercedes-Benz,AMG E 53 4MATIC+ (Coupe),3.0,6,23,Automatic,9,2100,3000,381
+Mercedes-Benz,AMG S 63 4MATIC+ (convertible),4.0,8,18,Automatic,9,2700,6000,493
+Mercedes-Benz,C 300 (convertible),2.0,4,24,Automatic,9,2050,2750,373
+Mercedes-Benz,C 300 (Coupe),2.0,4,25,Automatic,9,1950,2250,351
+Mercedes-Benz,C 300 4MATIC (convertible),2.0,4,24,Automatic,9,2050,2750,374
+Mercedes-Benz,C 300 4MATIC (Coupe),2.0,4,25,Automatic,9,1950,2250,360
+Mercedes-Benz,E 450 (convertible),3.0,6,23,Automatic,9,2100,3000,393
+Mercedes-Benz,E 450 (coupe),3.0,6,23,Automatic,9,2100,3000,388
+Mercedes-Benz,E 450 4MATIC (convertible),3.0,6,22,Automatic,9,2200,3500,408
+Mercedes-Benz,E 450 4MATIC (coupe),3.0,6,22,Automatic,9,2200,3500,409
+Mercedes-Benz,S 560 (convertible),4.0,8,20,Automatic,9,2450,4750,439
+Mini,COOPER HARDTOP 2 DOOR,1.5,3,31,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1550,250,281
+Mini,COOPER HARDTOP 4 DOOR,1.5,3,31,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1550,250,281
+Mini,COOPER S HARDTOP 2 DOOR,2.0,4,30,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1600,500,297
+Mini,COOPER S HARDTOP 4 DOOR,2.0,4,30,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1600,500,297
+Mini,JOHN COOPER WORKS HARDTOP,2.0,4,29,Semi-Automatic,8,1700,1000,305
+NISSAN,GT-R,3.8,6,18,Automated Manual- Selectable (e.g. Automated Manual with paddles),6,2700,6000,482
+Acura,ILX,2.4,4,28,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,1750,1250,316
+Acura,TLX AWD,3.5,6,23,Semi-Automatic,9,2100,3000,384
+Acura,TLX AWD A-SPEC,3.5,6,23,Semi-Automatic,9,2100,3000,387
+Acura,TLX FWD,2.4,4,27,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,1800,1500,330
+Acura,TLX FWD,3.5,6,24,Semi-Automatic,9,2050,2750,374
+Acura,TLX FWD A-SPEC,2.4,4,26,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,1900,2000,336
+Acura,TLX FWD A-SPEC,3.5,6,23,Semi-Automatic,9,2100,3000,382
+Audi,A4,2.0,4,30,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1600,500,295
+Audi,S4,3.0,6,23,Semi-Automatic,8,2100,3000,393
+BMW,330i,2.0,4,30,Semi-Automatic,8,1600,500,299
+BMW,330i xDrive,2.0,4,28,Semi-Automatic,8,1750,1250,313
+BMW,430i Coupe,2.0,4,27,Semi-Automatic,8,1800,1500,327
+BMW,430i Coupe,2.0,4,25,Manual,6,1950,2250,351
+BMW,430i Gran Coupe,2.0,4,27,Semi-Automatic,8,1800,1500,327
+BMW,430i xDrive Coupe,2.0,4,24,Semi-Automatic,8,2050,2750,361
+BMW,430i xDrive Gran Coupe,2.0,4,24,Semi-Automatic,8,2050,2750,361
+BMW,440i Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,353
+BMW,440i Coupe,3.0,6,22,Manual,6,2200,3500,408
+BMW,440i Gran Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,353
+BMW,440i xDrive Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,356
+BMW,440i xDrive Coupe,3.0,6,21,Manual,6,2300,4000,412
+BMW,440i xDrive Gran Coupe,3.0,6,25,Semi-Automatic,8,1950,2250,356
+BMW,M340i,3.0,6,25,Semi-Automatic,8,1950,2250,353
+BMW,M340i xDrive,3.0,6,25,Semi-Automatic,8,1950,2250,356
+BMW,M4 Coupe,3.0,6,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2550,5250,471
+BMW,M4 Coupe,3.0,6,20,Manual,6,2450,4750,440
+BMW,M4 Coupe Competition,3.0,6,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2550,5250,471
+BMW,M4 Coupe Competition,3.0,6,20,Manual,6,2450,4750,440
+BMW,M4 CS,3.0,6,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2550,5250,471
+Chevrolet,SONIC,1.4,4,29,Semi-Automatic,6,1400,,308
+GENESIS,G70 AWD,2.0,4,23,Semi-Automatic,8,2100,3000,385
+GENESIS,G70 AWD,3.3,6,20,Semi-Automatic,8,2450,4750,457
+GENESIS,G70 RWD,2.0,4,25,Semi-Automatic,8,1950,2250,357
+GENESIS,G70 RWD,2.0,4,22,Manual,6,2200,3500,410
+GENESIS,G70 RWD,3.3,6,20,Semi-Automatic,8,2450,4750,447
+Honda,CIVIC 2DR,1.5,4,35,Continuously Variable,1,1150,,256
+Honda,CIVIC 2DR,1.5,4,33,Selectable Continuously Variable (e.g. CVT with paddles),7,1250,,269
+Honda,CIVIC 2DR,1.5,4,30,Manual,6,1600,500,294
+Honda,CIVIC 2DR,2.0,4,33,Continuously Variable,1,1250,,264
+Honda,CIVIC 2DR,2.0,4,32,Selectable Continuously Variable (e.g. CVT with paddles),7,1250,,280
+Honda,CIVIC 2DR,2.0,4,29,Manual,6,1400,,304
+HYUNDAI MOTOR COMPANY,Accent,1.6,4,36,Continuously Variable,1,1100,,248
+HYUNDAI MOTOR COMPANY,Accent,1.6,4,33,Manual,6,1250,,273
+HYUNDAI MOTOR COMPANY,Veloster,1.6,4,30,Automated Manual,7,1350,,296
+HYUNDAI MOTOR COMPANY,Veloster,1.6,4,29,Manual,6,1400,,308
+HYUNDAI MOTOR COMPANY,Veloster,2.0,4,30,Semi-Automatic,6,1350,,300
+HYUNDAI MOTOR COMPANY,Veloster,2.0,4,28,Manual,6,1450,,317
+HYUNDAI MOTOR COMPANY,Veloster N,2.0,4,25,Manual,6,1600,500,363
+Jaguar,XE,2.0,4,28,Semi-Automatic,8,1750,1250,312
+Jaguar,XE 30t,2.0,4,27,Semi-Automatic,8,1800,1500,333
+Jaguar,XE AWD,2.0,4,28,Semi-Automatic,8,1750,1250,321
+Jaguar,XE AWD 30t,2.0,4,25,Semi-Automatic,8,1950,2250,354
+KIA MOTORS CORPORATION,Rio,1.6,4,36,Continuously Variable,1,1100,,249
+LEXUS,GS F,5.0,8,19,Semi-Automatic,8,2550,5250,472
+LEXUS,IS 300,2.0,4,24,Semi-Automatic,8,2050,2750,363
+LEXUS,IS 300 AWD,3.5,6,21,Semi-Automatic,6,2300,4000,422
+LEXUS,IS 350,3.5,6,23,Semi-Automatic,8,2100,3000,388
+LEXUS,IS 350 AWD,3.5,6,21,Semi-Automatic,6,2300,4000,422
+LEXUS,UX 250h,2.0,4,42,Selectable Continuously Variable (e.g. CVT with paddles),6,950,,209
+LEXUS,UX 250h,2.0,4,42,Selectable Continuously Variable (e.g. CVT with paddles),6,950,,209
+LEXUS,UX 250h AWD,2.0,4,39,Selectable Continuously Variable (e.g. CVT with paddles),6,1050,,225
+LEXUS,UX 250h AWD,2.0,4,39,Selectable Continuously Variable (e.g. CVT with paddles),6,1050,,225
+MAZDA,MAZDA3 4-Door 2WD,2.5,4,30,Semi-Automatic,6,1350,,295
+MAZDA,MAZDA3 4-Door 2WD,2.5,4,30,Semi-Automatic,6,1350,,299
+MAZDA,MAZDA3 4-Door 4WD,2.5,4,28,Semi-Automatic,6,1450,,313
+Mercedes-Benz,AMG C 43 4MATIC,3.0,6,22,Automatic,9,2200,3500,407
+Mercedes-Benz,AMG C 63,4.0,8,21,Automatic,9,2300,4000,424
+Mercedes-Benz,AMG C 63 S,4.0,8,21,Automatic,9,2300,4000,424
+Mercedes-Benz,AMG CLS 53 4MATIC+,3.0,6,23,Automatic,9,2100,3000,379
+Mercedes-Benz,AMG GT 53 4MATIC+,3.0,6,21,Automatic,9,2300,4000,425
+Mercedes-Benz,AMG GT 63 4MATIC+,4.0,8,17,Automatic,9,2850,6750,519
+Mercedes-Benz,AMG GT 63 S 4MATIC+,4.0,8,17,Automatic,9,2850,6750,521
+Mercedes-Benz,AMG S 63 4MATIC+ (coupe),4.0,8,20,Automatic,9,2450,4750,437
+Mercedes-Benz,C 300,2.0,4,28,Automatic,9,1750,1250,315
+Mercedes-Benz,C 300 4MATIC,2.0,4,26,Automatic,9,1900,2000,338
+Mercedes-Benz,CLA 250,2.0,4,28,Automated Manual,7,1750,1250,310
+Mercedes-Benz,CLA 250 4MATIC,2.0,4,27,Automated Manual,7,1800,1500,329
+Mercedes-Benz,CLS 450,3.0,6,26,Automatic,9,1900,2000,334
+Mercedes-Benz,CLS 450 4MATIC,3.0,6,26,Automatic,9,1900,2000,343
+Mercedes-Benz,S 560 4MATIC (coupe),4.0,8,20,Automatic,9,2450,4750,439
+Mitsubishi Motors Corporation,MIRAGE,1.2,3,39,Continuously Variable,1,1050,,228
+Mitsubishi Motors Corporation,MIRAGE,1.2,3,36,Manual,5,1100,,242
+Mitsubishi Motors Corporation,MIRAGE G4,1.2,3,37,Continuously Variable,1,1100,,236
+Mitsubishi Motors Corporation,MIRAGE G4,1.2,3,35,Manual,5,1150,,252
+NISSAN,VERSA,1.6,4,35,Continuously Variable,1,1150,,253
+NISSAN,VERSA,1.6,4,30,Manual,5,1350,,296
+Rolls-Royce Motor Cars Limited,Dawn,6.6,12,14,Semi-Automatic,8,3500,10000,637
+Subaru,WRX,2.0,4,21,Selectable Continuously Variable (e.g. CVT with paddles),8,2300,4000,422
+Subaru,WRX,2.0,4,23,Manual,6,2100,3000,382
+TOYOTA,C-HR,2.0,4,29,Selectable Continuously Variable (e.g. CVT with paddles),7,1400,,305
+TOYOTA,COROLLA,1.8,4,33,Continuously Variable,1,1250,,267
+TOYOTA,COROLLA,1.8,4,33,Manual,6,1250,,266
+TOYOTA,COROLLA,2.0,4,34,Selectable Continuously Variable (e.g. CVT with paddles),10,1200,,257
+TOYOTA,COROLLA,2.0,4,32,Manual,6,1250,,277
+TOYOTA,COROLLA HATCHBACK,2.0,4,35,Selectable Continuously Variable (e.g. CVT with paddles),10,1150,,250
+TOYOTA,COROLLA HATCHBACK MANUAL,2.0,4,31,Manual,6,1300,,280
+TOYOTA,COROLLA HATCHBACK XSE,2.0,4,33,Selectable Continuously Variable (e.g. CVT with paddles),10,1250,,266
+TOYOTA,COROLLA HYBRID,1.8,4,52,Continuously Variable,1,800,,170
+TOYOTA,COROLLA XLE,1.8,4,32,Continuously Variable,1,1250,,274
+TOYOTA,COROLLA XSE,2.0,4,34,Selectable Continuously Variable (e.g. CVT with paddles),10,1200,,265
+TOYOTA,YARIS,1.5,4,35,Semi-Automatic,6,1150,,252
+TOYOTA,YARIS,1.5,4,34,Manual,6,1200,,264
+Volkswagen,GTI,2.0,4,27,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1500,,327
+Volkswagen,GTI,2.0,4,27,Manual,6,1500,,326
+Volkswagen,Jetta,2.0,4,28,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1450,,315
+Volkswagen,Jetta,2.0,4,28,Manual,6,1450,,319
+"Volvo Cars of North America, LLC",S60 AWD,2.0,4,25,Semi-Automatic,8,1950,2250,352
+"Volvo Cars of North America, LLC",S60 FWD,2.0,4,27,Semi-Automatic,8,1800,1500,322
+Acura,RLX,3.5,6,28,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1750,1250,316
+Acura,RLX,3.5,6,23,Semi-Automatic,10,2100,3000,383
+ALFA ROMEO,Giulia,2.0,4,27,Automatic,8,1800,1500,330
+ALFA ROMEO,Giulia,2.9,6,20,Automatic,8,2450,4750,436
+ALFA ROMEO,Giulia AWD,2.0,4,26,Automatic,8,1900,2000,348
+Audi,A6 quattro,2.0,4,27,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1800,1500,329
+Audi,S5 Sportback,3.0,6,23,Semi-Automatic,8,2100,3000,393
+Audi,S6,2.9,6,22,Semi-Automatic,8,2200,3500,410
+Audi,S7,2.9,6,22,Semi-Automatic,8,2200,3500,410
+Audi,S8,4.0,8,16,Semi-Automatic,8,3050,7750,545
+BMW,530i,2.0,4,28,Semi-Automatic,8,1750,1250,316
+BMW,530i xDrive,2.0,4,27,Semi-Automatic,8,1800,1500,332
+BMW,540i,3.0,6,25,Semi-Automatic,8,1950,2250,350
+BMW,540i xDrive,3.0,6,25,Semi-Automatic,8,1950,2250,359
+BMW,840i Gran Coupe,3.0,6,24,Semi-Automatic,8,2050,2750,361
+BMW,840i xDrive Gran Coupe,3.0,6,23,Semi-Automatic,8,2100,3000,388
+BMW,M5,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M5 Competition,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M550i xDrive,4.4,8,20,Semi-Automatic,8,2450,4750,435
+BMW,M8 Competition Gran Coupe,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M8 Gran Coupe,4.4,8,17,Semi-Automatic,8,2850,6750,518
+BMW,M850i xDrive Gran Coupe,4.4,8,20,Semi-Automatic,8,2450,4750,450
+BMW,X2 M35i,2.0,4,26,Semi-Automatic,8,1900,2000,338
+BMW,X2 sDrive28i,2.0,4,27,Semi-Automatic,8,1800,1500,330
+BMW,X2 xDrive28i,2.0,4,27,Semi-Automatic,8,1800,1500,332
+Buick,REGAL,2.0,4,26,Semi-Automatic,9,1900,2000,343
+Buick,REGAL AWD,2.0,4,24,Semi-Automatic,8,2050,2750,365
+Buick,REGAL AWD,3.6,6,22,Semi-Automatic,9,1850,1750,411
+Cadillac,CT5,2.0,4,26,Semi-Automatic,10,1900,2000,337
+Cadillac,CT5 AWD,2.0,4,25,Semi-Automatic,10,1950,2250,356
+Chevrolet,MALIBU,1.5,4,32,Continuously Variable,1,1250,,298
+Chevrolet,MALIBU,2.0,4,26,Automatic,9,1900,2000,344
+Ford,FUSION AWD,2.0,4,23,Semi-Automatic,6,1750,1250,384
+Ford,FUSION FWD,1.5,4,27,Semi-Automatic,6,1500,,327
+Ford,FUSION FWD,2.0,4,25,Semi-Automatic,6,1600,500,355
+Ford,FUSION FWD,2.5,4,24,Automatic,6,1700,1000,364
+Ford,FUSION HYBRID FWD,2.0,4,42,Continuously Variable,1,950,,211
+Ford,FUSION HYBRID TAXI,2.0,4,41,Continuously Variable,1,1000,,217
+Honda,ACCORD 2.0T SPORT/TOURING,2.0,4,26,Semi-Automatic,10,1550,250,345
+Honda,CIVIC 4Dr,1.5,4,36,Continuously Variable,1,1100,,248
+Honda,CIVIC 4Dr,1.5,4,33,Selectable Continuously Variable (e.g. CVT with paddles),7,1250,,266
+Honda,CIVIC 4Dr,1.5,4,30,Manual,6,1600,500,294
+Honda,CIVIC 4Dr,2.0,4,33,Continuously Variable,1,1250,,268
+Honda,CIVIC 4Dr,2.0,4,32,Selectable Continuously Variable (e.g. CVT with paddles),7,1250,,276
+Honda,CIVIC 4Dr,2.0,4,29,Manual,6,1400,,300
+Honda,INSIGHT,1.5,4,52,Continuously Variable,1,800,,170
+Honda,INSIGHT TOURING,1.5,4,48,Continuously Variable,1,850,,184
+HYUNDAI MOTOR COMPANY,Elantra,1.4,4,36,Automated Manual,7,1100,,250
+HYUNDAI MOTOR COMPANY,Elantra,1.6,4,29,Automated Manual,7,1400,,310
+HYUNDAI MOTOR COMPANY,Elantra,2.0,4,34,Continuously Variable,1,1200,,264
+HYUNDAI MOTOR COMPANY,Elantra SE,2.0,4,35,Continuously Variable,1,1150,,259
+HYUNDAI MOTOR COMPANY,Venue,1.6,4,32,Continuously Variable,1,1250,,284
+HYUNDAI MOTOR COMPANY,Venue,1.6,4,30,Manual,6,1350,,297
+INFINITI,Q50,3.0,6,23,Semi-Automatic,7,2100,3000,387
+INFINITI,Q50 AWD,3.0,6,22,Semi-Automatic,7,2200,3500,407
+INFINITI,Q50 AWD RED SPORT,3.0,6,22,Semi-Automatic,7,2200,3500,405
+INFINITI,Q50 RED SPORT,3.0,6,22,Semi-Automatic,7,2200,3500,404
+Jaguar,XF,2.0,4,28,Semi-Automatic,8,1750,1250,312
+Jaguar,XF 30t,2.0,4,26,Semi-Automatic,8,1900,2000,335
+Jaguar,XF AWD,2.0,4,27,Semi-Automatic,8,1800,1500,333
+Jaguar,XF AWD,3.0,6,23,Semi-Automatic,8,2100,3000,390
+Jaguar,XF AWD 30t,2.0,4,25,Semi-Automatic,8,1950,2250,349
+KIA MOTORS CORPORATION,Forte,1.6,4,30,Automated Manual,7,1350,,296
+KIA MOTORS CORPORATION,Forte,1.6,4,28,Manual,6,1450,,326
+KIA MOTORS CORPORATION,Forte,2.0,4,33,Continuously Variable,1,1250,,269
+KIA MOTORS CORPORATION,Forte,2.0,4,31,Manual,6,1300,,290
+KIA MOTORS CORPORATION,Forte FE,2.0,4,35,Continuously Variable,1,1150,,256
+KIA MOTORS CORPORATION,Optima Hybrid,2.0,4,42,Automated Manual,6,950,,213
+KIA MOTORS CORPORATION,Stinger AWD,2.0,4,24,Semi-Automatic,8,2050,2750,368
+KIA MOTORS CORPORATION,Stinger AWD,3.3,6,20,Semi-Automatic,8,2450,4750,449
+KIA MOTORS CORPORATION,Stinger RWD,2.0,4,25,Semi-Automatic,8,1950,2250,365
+KIA MOTORS CORPORATION,Stinger RWD,3.3,6,20,Semi-Automatic,8,2450,4750,446
+LEXUS,ES 300h,2.5,4,44,Selectable Continuously Variable (e.g. CVT with paddles),6,900,,201
+LEXUS,ES 350,3.5,6,26,Semi-Automatic,8,1550,250,346
+LEXUS,ES 350 F SPORT,3.5,6,25,Semi-Automatic,8,1600,500,352
+LEXUS,GS 350,3.5,6,23,Semi-Automatic,8,2100,3000,388
+LEXUS,GS 350 AWD,3.5,6,21,Semi-Automatic,6,2300,4000,422
+LEXUS,GS 350 F SPORT,3.5,6,22,Semi-Automatic,8,2200,3500,405
+LEXUS,LS 500,3.4,6,23,Semi-Automatic,10,2100,3000,389
+LEXUS,LS 500 AWD,3.4,6,21,Semi-Automatic,10,2300,4000,420
+LEXUS,LS 500h,3.5,6,28,Selectable Continuously Variable (e.g. CVT with paddles),10,1750,1250,318
+LEXUS,LS 500h AWD,3.5,6,26,Selectable Continuously Variable (e.g. CVT with paddles),10,1900,2000,345
+LEXUS,UX 200,2.0,4,33,Selectable Continuously Variable (e.g. CVT with paddles),10,1250,,271
+Lincoln,MKZ AWD,2.0,4,23,Semi-Automatic,6,1750,1250,384
+Lincoln,MKZ AWD,3.0,6,20,Semi-Automatic,6,2000,2500,447
+Lincoln,MKZ FWD,2.0,4,24,Semi-Automatic,6,1700,1000,373
+Lincoln,MKZ FWD,3.0,6,21,Semi-Automatic,6,1950,2250,425
+Lincoln,MKZ HYBRID FWD,2.0,4,41,Continuously Variable,1,1000,,217
+MASERATI,GHIBLI,3.0,6,19,Automatic,8,2550,5250,460
+MASERATI,GHIBLI S,3.0,6,19,Automatic,8,2550,5250,460
+MASERATI,GHIBLI S Q4,3.0,6,19,Automatic,8,2550,5250,474
+MAZDA,MAZDA3 5-Door 2WD,2.5,4,30,Semi-Automatic,6,1350,,297
+MAZDA,MAZDA3 5-Door 2WD,2.5,4,29,Manual,6,1400,,303
+MAZDA,MAZDA3 5-Door 4WD,2.5,4,27,Semi-Automatic,6,1500,,328
+Mercedes-Benz,AMG E 53 4MATIC+,3.0,6,24,Automatic,9,2050,2750,370
+Mercedes-Benz,AMG E 63 S 4MATIC+,4.0,8,18,Automatic,9,2700,6000,509
+Mercedes-Benz,E 350,2.0,4,26,Automatic,9,1900,2000,336
+Mercedes-Benz,E 350 4MATIC,2.0,4,25,Automatic,9,1950,2250,354
+Mercedes-Benz,E 450 4MATIC,3.0,6,23,Automatic,9,2100,3000,392
+Mini,COOPER COUNTRYMAN,1.5,3,29,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1700,1000,307
+Mini,COOPER COUNTRYMAN ALL4,1.5,3,27,Semi-Automatic,8,1800,1500,322
+Mini,COOPER S CLUBMAN,2.0,4,29,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1700,1000,304
+Mini,COOPER S CLUBMAN ALL4,2.0,4,26,Semi-Automatic,8,1900,2000,333
+Mini,COOPER S COUNTRYMAN,2.0,4,28,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1750,1250,321
+Mini,COOPER S COUNTRYMAN ALL4,2.0,4,26,Semi-Automatic,8,1900,2000,341
+Mini,JCW COUNTRYMAN ALL4,2.0,4,26,Semi-Automatic,8,1900,2000,343
+Mini,JOHN COOPER WORKS CLUBMAN ALL4,2.0,4,26,Semi-Automatic,8,1900,2000,339
+NISSAN,ALTIMA,2.5,4,32,Continuously Variable,1,1250,,278
+NISSAN,ALTIMA AWD,2.5,4,30,Continuously Variable,1,1350,,300
+NISSAN,ALTIMA AWD SR/PLATINUM,2.5,4,29,Continuously Variable,1,1400,,307
+NISSAN,ALTIMA SR/PLATINUM,2.0,4,29,Continuously Variable,1,1400,,311
+NISSAN,ALTIMA SR/PLATINUM,2.5,4,31,Continuously Variable,1,1300,,288
+NISSAN,MAXIMA,3.5,6,24,Selectable Continuously Variable (e.g. CVT with paddles),7,2050,2750,378
+Rolls-Royce Motor Cars Limited,Wraith,6.6,12,14,Semi-Automatic,8,3500,10000,624
+Subaru,IMPREZA 4-Door,2.0,4,31,Selectable Continuously Variable (e.g. CVT with paddles),7,1300,,282
+Subaru,IMPREZA 4-Door,2.0,4,26,Manual,5,1550,250,337
+Subaru,IMPREZA 4-Door SPORT,2.0,4,30,Selectable Continuously Variable (e.g. CVT with paddles),7,1350,,291
+Subaru,IMPREZA 4-Door SPORT,2.0,4,26,Manual,5,1550,250,337
+TOYOTA,AVALON,3.5,6,25,Semi-Automatic,8,1600,500,354
+TOYOTA,AVALON HYBRID,2.5,4,43,Selectable Continuously Variable (e.g. CVT with paddles),6,950,,203
+TOYOTA,AVALON HYBRID XLE,2.5,4,44,Selectable Continuously Variable (e.g. CVT with paddles),6,900,,201
+TOYOTA,AVALON XLE,3.5,6,26,Semi-Automatic,8,1550,250,341
+TOYOTA,CAMRY,2.5,4,34,Semi-Automatic,8,1200,,264
+TOYOTA,CAMRY,3.5,6,26,Semi-Automatic,8,1550,250,338
+TOYOTA,CAMRY HYBRID LE,2.5,4,52,Selectable Continuously Variable (e.g. CVT with paddles),6,800,,170
+TOYOTA,CAMRY HYBRID XLE/SE,2.5,4,46,Selectable Continuously Variable (e.g. CVT with paddles),6,900,,195
+TOYOTA,CAMRY LE/SE,2.5,4,32,Semi-Automatic,8,1250,,279
+TOYOTA,CAMRY TRD,3.5,6,25,Semi-Automatic,8,1600,500,354
+TOYOTA,CAMRY XLE/XSE,2.5,4,31,Semi-Automatic,8,1300,,284
+TOYOTA,CAMRY XSE,3.5,6,26,Semi-Automatic,8,1550,250,345
+TOYOTA,PRIUS,1.8,4,52,Continuously Variable,1,800,,169
+TOYOTA,PRIUS AWD,1.8,4,50,Continuously Variable,1,800,,176
+TOYOTA,PRIUS Eco,1.8,4,56,Continuously Variable,1,700,,158
+"Volvo Cars of North America, LLC",S90 AWD,2.0,4,25,Semi-Automatic,8,1950,2250,357
+Audi,A8L,4.0,8,18,Semi-Automatic,8,2700,6000,495
+BMW,740i,3.0,6,24,Semi-Automatic,8,2050,2750,361
+BMW,740i xDrive,3.0,6,23,Semi-Automatic,8,2100,3000,394
+BMW,750i xDrive,4.4,8,20,Semi-Automatic,8,2450,4750,449
+BMW,Alpina B7,4.4,8,20,Semi-Automatic,8,2450,4750,450
+BMW,M760i xDrive,6.6,12,16,Semi-Automatic,8,3050,7750,570
+BMW,X1 sDrive28i,2.0,4,27,Semi-Automatic,8,1800,1500,327
+BMW,X1 xDrive28i,2.0,4,26,Semi-Automatic,8,1900,2000,342
+Cadillac,CT6 AWD,3.6,6,21,Semi-Automatic,10,1950,2250,420
+Chevrolet,IMPALA,3.6,6,22,Semi-Automatic,6,1850,1750,411
+Chevrolet,IMPALA,3.6,6,22,Semi-Automatic,6,1850,1750,406
+GENESIS,G80 AWD,3.3,6,20,Semi-Automatic,8,2450,4750,453
+GENESIS,G80 AWD,3.8,6,20,Semi-Automatic,8,2000,2500,445
+GENESIS,G80 AWD,5.0,8,18,Semi-Automatic,8,2700,6000,503
+GENESIS,G80 RWD,3.3,6,20,Semi-Automatic,8,2450,4750,442
+GENESIS,G80 RWD,3.8,6,21,Semi-Automatic,8,1950,2250,423
+GENESIS,G80 RWD,5.0,8,19,Semi-Automatic,8,2550,5250,474
+GENESIS,G90 AWD,3.3,6,20,Semi-Automatic,8,2450,4750,451
+GENESIS,G90 AWD,5.0,8,18,Semi-Automatic,8,2700,6000,500
+GENESIS,G90 RWD,3.3,6,20,Semi-Automatic,8,2450,4750,446
+GENESIS,G90 RWD,5.0,8,19,Semi-Automatic,8,2550,5250,485
+Honda,ACCORD,1.5,4,33,Continuously Variable,1,1250,,266
+Honda,ACCORD,1.5,4,31,Selectable Continuously Variable (e.g. CVT with paddles),7,1300,,282
+Honda,ACCORD,1.5,4,30,Manual,6,1350,,298
+Honda,ACCORD,2.0,4,48,Continuously Variable,1,850,,185
+Honda,ACCORD,2.0,4,27,Semi-Automatic,10,1500,,330
+Honda,ACCORD,2.0,4,26,Manual,6,1550,250,344
+Honda,CIVIC 5DR,1.5,4,34,Continuously Variable,1,1200,,259
+Honda,CIVIC 5DR,1.5,4,32,Selectable Continuously Variable (e.g. CVT with paddles),7,1500,,279
+Honda,CIVIC 5DR,1.5,4,32,Manual,6,1500,,274
+HYUNDAI MOTOR COMPANY,Elantra GT,1.6,4,28,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1450,,322
+HYUNDAI MOTOR COMPANY,Elantra GT,1.6,4,26,Manual,6,1550,250,352
+HYUNDAI MOTOR COMPANY,Elantra GT,2.0,4,27,Semi-Automatic,6,1500,,327
+HYUNDAI MOTOR COMPANY,Ioniq,1.6,4,55,Automated Manual,6,750,,163
+HYUNDAI MOTOR COMPANY,Ioniq Blue,1.6,4,58,Automated Manual,6,700,,154
+HYUNDAI MOTOR COMPANY,Sonata,1.6,4,31,Semi-Automatic,8,1300,,291
+HYUNDAI MOTOR COMPANY,Sonata,2.5,4,32,Semi-Automatic,8,1250,,282
+HYUNDAI MOTOR COMPANY,Sonata,2.5,4,31,Semi-Automatic,8,1300,,293
+KIA MOTORS CORPORATION,K900,3.3,6,21,Semi-Automatic,8,2300,4000,431
+KIA MOTORS CORPORATION,Optima,1.6,4,31,Automated Manual,7,1300,,292
+KIA MOTORS CORPORATION,Optima,2.0,4,24,Semi-Automatic,6,1700,1000,371
+KIA MOTORS CORPORATION,Optima,2.4,4,27,Semi-Automatic,6,1500,,330
+KIA MOTORS CORPORATION,Optima FE,2.4,4,29,Semi-Automatic,6,1400,,311
+Lincoln,CONTINENTAL AWD,2.7,6,20,Semi-Automatic,6,2000,2500,452
+Lincoln,CONTINENTAL AWD,3.0,6,19,Semi-Automatic,6,2150,3250,466
+Lincoln,CONTINENTAL AWD,3.7,6,19,Semi-Automatic,6,2150,3250,462
+Lincoln,CONTINENTAL FWD,2.7,6,21,Semi-Automatic,6,1950,2250,424
+Lincoln,CONTINENTAL FWD,3.7,6,20,Semi-Automatic,6,2000,2500,440
+MASERATI,QUATTROPORTE GTS,3.8,8,17,Automatic,8,2850,6750,517
+MASERATI,QUATTROPORTE S,3.0,6,19,Automatic,8,2550,5250,460
+MASERATI,QUATTROPORTE S Q4,3.0,6,18,Automatic,8,2700,6000,484
+Mercedes-Benz,AMG S 63 4MATIC+,4.0,8,20,Automatic,9,2450,4750,443
+Mercedes-Benz,S 450,3.0,6,22,Automatic,9,2200,3500,403
+Mercedes-Benz,S 450 4MATIC,3.0,6,22,Automatic,9,2200,3500,408
+Mercedes-Benz,S 560,4.0,8,21,Automatic,9,2300,4000,430
+Mercedes-Benz,S 560 4MATIC,4.0,8,21,Automatic,9,2300,4000,426
+Mercedes-Benz,S 560 4MATIC Maybach,4.0,8,19,Automatic,9,2550,5250,455
+Porsche,Panamera,3.0,6,22,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2200,3500,401
+Porsche,Panamera 4,3.0,6,22,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2200,3500,407
+Porsche,Panamera 4 Executive,3.0,6,22,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2200,3500,407
+Porsche,Panamera 4 ST,3.0,6,22,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2200,3500,403
+Porsche,Panamera 4S,2.9,6,21,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2300,4000,419
+Porsche,Panamera 4S Executive,2.9,6,21,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2300,4000,419
+Porsche,Panamera 4S ST,2.9,6,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2450,4750,440
+Porsche,Panamera GTS,4.0,8,19,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2550,5250,474
+Porsche,Panamera GTS ST,4.0,8,18,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2700,6000,503
+Porsche,Panamera Turbo,4.0,8,21,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2300,4000,420
+Porsche,Panamera Turbo Exec,4.0,8,21,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2300,4000,420
+Porsche,Panamera Turbo ST,4.0,8,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),8,2450,4750,449
+Rolls-Royce Motor Cars Limited,Ghost,6.6,12,14,Semi-Automatic,8,3500,10000,637
+Rolls-Royce Motor Cars Limited,Ghost EWB,6.6,12,14,Semi-Automatic,8,3500,10000,637
+Rolls-Royce Motor Cars Limited,Phantom,6.7,12,14,Semi-Automatic,8,3500,10000,615
+Rolls-Royce Motor Cars Limited,Phantom EWB,6.7,12,14,Semi-Automatic,8,3500,10000,615
+Subaru,LEGACY,2.4,4,27,Selectable Continuously Variable (e.g. CVT with paddles),8,1500,,330
+Subaru,LEGACY,2.5,4,30,Selectable Continuously Variable (e.g. CVT with paddles),8,1350,,295
+Buick,REGAL TOUR X AWD,2.0,4,24,Semi-Automatic,8,2050,2750,365
+Chevrolet,SONIC 5,1.4,4,29,Semi-Automatic,6,1400,,308
+FIAT,500L,1.4,4,25,Automatic,6,1950,2250,356
+Honda,HR-V AWD,1.8,4,29,Continuously Variable,1,1400,,311
+Honda,HR-V AWD,1.8,4,28,Selectable Continuously Variable (e.g. CVT with paddles),7,1450,,314
+Honda,HR-V FWD,1.8,4,30,Continuously Variable,1,1350,,292
+Honda,HR-V FWD,1.8,4,30,Selectable Continuously Variable (e.g. CVT with paddles),7,1350,,292
+KIA MOTORS CORPORATION,Soul,1.6,4,29,Automated Manual,7,1400,,309
+KIA MOTORS CORPORATION,Soul,2.0,4,30,Continuously Variable,1,1350,,303
+KIA MOTORS CORPORATION,Soul,2.0,4,27,Manual,6,1500,,332
+KIA MOTORS CORPORATION,Soul Eco dynamics,2.0,4,31,Continuously Variable,1,1300,,287
+Subaru,IMPREZA 5-Door,2.0,4,31,Selectable Continuously Variable (e.g. CVT with paddles),7,1300,,288
+Subaru,IMPREZA 5-Door,2.0,4,26,Manual,5,1550,250,335
+Subaru,IMPREZA 5-Door SPORT,2.0,4,30,Selectable Continuously Variable (e.g. CVT with paddles),7,1350,,292
+Subaru,IMPREZA 5-Door SPORT,2.0,4,25,Manual,5,1600,500,351
+"Volvo Cars of North America, LLC",V60 CC AWD,2.0,4,25,Semi-Automatic,8,1950,2250,354
+"Volvo Cars of North America, LLC",V60 FWD,2.0,4,27,Semi-Automatic,8,1800,1500,322
+Jaguar,XF Sportbrake AWD,2.0,4,24,Semi-Automatic,8,2050,2750,370
+Jaguar,XF Sportbrake AWD,3.0,6,21,Semi-Automatic,8,2300,4000,428
+Mercedes-Benz,AMG E 63 S 4MATIC+ (SW),4.0,8,19,Automatic,9,2550,5250,480
+Mercedes-Benz,E 450 4MATIC (station wagon),3.0,6,22,Automatic,9,2200,3500,408
+NISSAN,MURANO AWD,3.5,6,23,Selectable Continuously Variable (e.g. CVT with paddles),7,1750,1250,388
+NISSAN,MURANO FWD,3.5,6,23,Selectable Continuously Variable (e.g. CVT with paddles),7,1750,1250,386
+Rolls-Royce Motor Cars Limited,Cullinan,6.7,12,14,Semi-Automatic,8,3500,10000,619
+Rolls-Royce Motor Cars Limited,Cullinan Black Badge,6.7,12,14,Semi-Automatic,8,3500,10000,619
+"Volvo Cars of North America, LLC",V90 AWD,2.0,4,25,Semi-Automatic,8,1950,2250,357
+"Volvo Cars of North America, LLC",V90 CC AWD,2.0,4,24,Semi-Automatic,8,2050,2750,373
+"Volvo Cars of North America, LLC",V90 FWD,2.0,4,26,Semi-Automatic,8,1900,2000,339
+Chrysler,Pacifica,3.6,6,22,Automatic,9,1850,1750,401
+Chrysler,Voyager,3.6,6,22,Automatic,9,1850,1750,401
+Honda,ODYSSEY FWD,3.5,6,22,Semi-Automatic,10,1850,1750,394
+KIA MOTORS CORPORATION,Sedona,3.3,6,21,Semi-Automatic,8,1950,2250,436
+TOYOTA,SIENNA,3.5,6,21,Semi-Automatic,8,1950,2250,417
+TOYOTA,SIENNA AWD,3.5,6,20,Semi-Automatic,8,2000,2500,441
+Acura,MDX FWD,3.5,6,23,Semi-Automatic,9,2100,3000,387
+Acura,RDX FWD,2.0,4,24,Semi-Automatic,10,2050,2750,370
+Acura,RDX FWD A-SPEC,2.0,4,24,Semi-Automatic,10,2050,2750,374
+ALFA ROMEO,Stelvio,2.0,4,25,Automatic,8,1950,2250,359
+BMW,X3 sDrive30i,2.0,4,27,Semi-Automatic,8,1800,1500,332
+Buick,ENCORE FWD,1.4,4,27,Semi-Automatic,6,1500,,329
+Buick,ENVISION FWD,2.5,4,25,Automatic,6,1600,500,359
+Cadillac,XT4 FWD,2.0,4,26,Semi-Automatic,9,1900,2000,336
+Cadillac,XT5 FWD,3.6,6,21,Semi-Automatic,9,1950,2250,420
+Cadillac,XT6 FWD,3.6,6,20,Semi-Automatic,9,2000,2500,437
+Chevrolet,BLAZER FWD,2.5,4,23,Automatic,9,1750,1250,382
+Chevrolet,BLAZER FWD,3.6,6,21,Automatic,9,1950,2250,414
+Chevrolet,EQUINOX FWD,1.5,4,28,Automatic,6,1450,,315
+Chevrolet,EQUINOX FWD,2.0,4,25,Automatic,9,1950,2250,350
+Chevrolet,TRAX FWD,1.4,4,28,Semi-Automatic,6,1450,,316
+Ford,ECOSPORT FWD,1.0,3,28,Semi-Automatic,6,1450,,318
+Ford,EDGE FWD,2.0,4,24,Automatic,8,1700,1000,369
+Ford,ESCAPE FWD,1.5,3,30,Automatic,8,1350,,297
+Ford,ESCAPE FWD HEV,2.5,4,41,Continuously Variable,1,1000,,220
+GMC,TERRAIN FWD,1.5,4,27,Automatic,9,1500,,325
+GMC,TERRAIN FWD,2.0,4,24,Automatic,9,2050,2750,369
+Honda,PASSPORT FWD,3.5,6,22,Semi-Automatic,9,1850,1750,407
+Honda,PILOT FWD,3.5,6,22,Automatic,6,1850,1750,405
+Honda,PILOT FWD,3.5,6,23,Semi-Automatic,9,1750,1250,388
+HYUNDAI MOTOR COMPANY,Kona FWD,1.6,4,30,Automated Manual,7,1350,,303
+HYUNDAI MOTOR COMPANY,Kona FWD,2.0,4,30,Semi-Automatic,6,1350,,300
+HYUNDAI MOTOR COMPANY,Santa Fe FWD,2.0,4,23,Semi-Automatic,8,1750,1250,399
+HYUNDAI MOTOR COMPANY,Santa Fe FWD,2.4,4,25,Semi-Automatic,8,1600,500,362
+HYUNDAI MOTOR COMPANY,Tucson FWD,2.0,4,25,Semi-Automatic,6,1600,500,358
+HYUNDAI MOTOR COMPANY,Tucson FWD,2.4,4,25,Semi-Automatic,6,1600,500,363
+INFINITI,QX50,2.0,4,26,Selectable Continuously Variable (e.g. CVT with paddles),8,1900,2000,346
+INFINITI,QX60 FWD,3.5,6,22,Selectable Continuously Variable (e.g. CVT with paddles),7,2200,3500,399
+Jeep,Cherokee FWD,2.0,4,26,Automatic,9,1550,250,345
+Jeep,Cherokee FWD,2.4,4,25,Automatic,9,1600,500,352
+Jeep,Cherokee FWD,3.2,6,23,Automatic,9,1750,1250,387
+Jeep,Compass 4X2,2.4,4,25,Automatic,6,1600,500,350
+Jeep,Compass 4X2,2.4,4,26,Manual,6,1550,250,339
+Jeep,Renegade 4x2,1.3,4,27,Automatic,9,1500,,328
+Jeep,Renegade 4x2,2.4,4,25,Automatic,9,1600,500,357
+KIA MOTORS CORPORATION,Sorento FWD,2.4,4,25,Semi-Automatic,6,1600,500,363
+KIA MOTORS CORPORATION,Sorento FWD,3.3,6,22,Semi-Automatic,8,1850,1750,413
+KIA MOTORS CORPORATION,Sportage FWD,2.0,4,23,Semi-Automatic,6,1750,1250,392
+KIA MOTORS CORPORATION,Sportage FWD,2.4,4,26,Semi-Automatic,6,1550,250,351
+KIA MOTORS CORPORATION,Telluride FWD,3.8,6,23,Semi-Automatic,8,1750,1250,395
+LEXUS,NX 300,2.0,4,25,Semi-Automatic,6,1950,2250,358
+LEXUS,RX 350,3.5,6,23,Semi-Automatic,8,1750,1250,391
+LEXUS,RX 350L,3.5,6,22,Semi-Automatic,8,1850,1750,407
+Lincoln,CORSAIR FWD,2.0,4,25,Semi-Automatic,8,1600,500,361
+Lincoln,NAUTILUS FWD,2.0,4,23,Semi-Automatic,8,1750,1250,384
+Mercedes-Benz,GLA 250,2.0,4,28,Automated Manual,7,1750,1250,316
+Mercedes-Benz,GLB 250,2.0,4,26,Automated Manual,8,1900,2000,344
+Mercedes-Benz,GLC 300,2.0,4,24,Automatic,9,2050,2750,366
+Mitsubishi Motors Corporation,ECLIPSE CROSS 2WD,1.5,4,26,Selectable Continuously Variable (e.g. CVT with paddles),8,1550,250,338
+Mitsubishi Motors Corporation,ECLIPSE CROSS ES 2WD,1.5,4,27,Selectable Continuously Variable (e.g. CVT with paddles),8,1500,,327
+Mitsubishi Motors Corporation,OUTLANDER 2WD,2.4,4,27,Selectable Continuously Variable (e.g. CVT with paddles),6,1500,,326
+Mitsubishi Motors Corporation,OUTLANDER SPORT 2WD,2.0,4,27,Selectable Continuously Variable (e.g. CVT with paddles),6,1500,,331
+Mitsubishi Motors Corporation,OUTLANDER SPORT 2WD,2.4,4,25,Selectable Continuously Variable (e.g. CVT with paddles),6,1600,500,354
+NISSAN,PATHFINDER 2WD,3.5,6,23,Continuously Variable,1,1750,1250,392
+NISSAN,ROGUE FWD,2.5,4,29,Continuously Variable,1,1400,,312
+TOYOTA,RAV4,2.5,4,30,Semi-Automatic,8,1350,,290
+TOYOTA,RAV4,2.5,4,30,Semi-Automatic,8,1350,,301
+Volkswagen,Atlas,2.0,4,22,Semi-Automatic,8,1850,1750,408
+Volkswagen,Atlas Cross Sport,2.0,4,22,Semi-Automatic,8,1850,1750,401
+Volkswagen,Tiguan,2.0,4,25,Semi-Automatic,8,1600,500,356
+"Volvo Cars of North America, LLC",XC40 FWD,2.0,4,27,Semi-Automatic,8,1500,,331
+"Volvo Cars of North America, LLC",XC60 FWD,2.0,4,24,Semi-Automatic,8,2050,2750,362
+Acura,MDX AWD,3.0,6,27,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,1800,1500,333
+Acura,MDX AWD,3.5,6,22,Semi-Automatic,9,2200,3500,404
+Acura,MDX AWD A-spec,3.5,6,21,Semi-Automatic,9,2300,4000,415
+Acura,RDX AWD,2.0,4,23,Semi-Automatic,10,2100,3000,385
+Acura,RDX AWD A-SPEC,2.0,4,23,Semi-Automatic,10,2100,3000,385
+ALFA ROMEO,Stelvio AWD,2.0,4,24,Automatic,8,2050,2750,364
+ALFA ROMEO,Stelvio AWD,2.9,6,19,Automatic,8,2550,5250,463
+Audi,Q3 quattro,2.0,4,22,Semi-Automatic,8,1850,1750,399
+Audi,Q5,2.0,4,24,Semi-Automatic,7,2050,2750,364
+Audi,SQ5,3.0,6,20,Semi-Automatic,8,2450,4750,444
+BMW,X3 M,3.0,6,16,Semi-Automatic,8,3050,7750,546
+BMW,X3 M Competition,3.0,6,16,Semi-Automatic,8,3050,7750,546
+BMW,X3 M40i,3.0,6,23,Semi-Automatic,8,2100,3000,379
+BMW,X3 xDrive30i,2.0,4,26,Semi-Automatic,8,1900,2000,345
+BMW,X4 M,3.0,6,16,Semi-Automatic,8,3050,7750,546
+BMW,X4 M Competition,3.0,6,16,Semi-Automatic,8,3050,7750,546
+BMW,X4 M40i,3.0,6,23,Semi-Automatic,8,2100,3000,379
+BMW,X4 xDrive30i,2.0,4,25,Semi-Automatic,8,1950,2250,356
+Buick,ENCORE AWD,1.4,4,26,Semi-Automatic,6,1550,250,344
+Buick,ENVISION AWD,2.0,4,22,Automatic,9,2200,3500,402
+Buick,ENVISION AWD,2.5,4,24,Automatic,6,1700,1000,377
+Cadillac,XT4 AWD,2.0,4,24,Semi-Automatic,9,2050,2750,366
+Cadillac,XT5 AWD,3.6,6,20,Semi-Automatic,9,2000,2500,434
+Cadillac,XT6 AWD,3.6,6,20,Semi-Automatic,9,2000,2500,446
+Chevrolet,BLAZER AWD,3.6,6,21,Automatic,9,1950,2250,433
+Chevrolet,EQUINOX AWD,1.5,4,27,Automatic,6,1500,,324
+Chevrolet,EQUINOX AWD,2.0,4,24,Automatic,9,2050,2750,367
+Chevrolet,TRAX AWD,1.4,4,26,Semi-Automatic,6,1550,250,344
+FIAT,500X AWD,1.3,4,26,Automatic,9,1550,250,342
+Ford,ECOSPORT AWD,2.0,4,25,Semi-Automatic,6,1600,500,355
+Ford,EDGE AWD,2.0,4,23,Automatic,8,1750,1250,384
+Ford,EDGE AWD,2.0,4,23,Semi-Automatic,8,1750,1250,384
+Ford,EDGE AWD,2.7,6,21,Semi-Automatic,8,1950,2250,417
+Ford,ESCAPE AWD,1.5,3,28,Automatic,8,1450,,319
+Ford,ESCAPE AWD,2.0,4,26,Semi-Automatic,8,1550,250,342
+Ford,ESCAPE AWD HEV,2.5,4,40,Continuously Variable,1,1000,,224
+GMC,TERRAIN AWD,1.5,4,26,Automatic,9,1550,250,339
+GMC,TERRAIN AWD,2.0,4,23,Automatic,9,2100,3000,386
+Honda,PASSPORT AWD,3.5,6,21,Semi-Automatic,9,1950,2250,427
+Honda,PILOT AWD,3.5,6,21,Automatic,6,1950,2250,421
+Honda,PILOT AWD,3.5,6,22,Semi-Automatic,9,1850,1750,407
+HYUNDAI MOTOR COMPANY,Kona AWD,1.6,4,27,Automated Manual,7,1500,,324
+HYUNDAI MOTOR COMPANY,Kona AWD,2.0,4,28,Semi-Automatic,6,1450,,324
+HYUNDAI MOTOR COMPANY,Santa Fe AWD,2.0,4,22,Semi-Automatic,8,1850,1750,411
+HYUNDAI MOTOR COMPANY,Santa Fe AWD,2.4,4,24,Semi-Automatic,8,1700,1000,377
+HYUNDAI MOTOR COMPANY,Tucson AWD,2.0,4,23,Semi-Automatic,6,1750,1250,385
+HYUNDAI MOTOR COMPANY,Tucson AWD,2.4,4,23,Semi-Automatic,6,1750,1250,387
+INFINITI,QX50 AWD,2.0,4,25,Selectable Continuously Variable (e.g. CVT with paddles),8,1950,2250,365
+INFINITI,QX60 AWD,3.5,6,22,Selectable Continuously Variable (e.g. CVT with paddles),7,2200,3500,410
+Jaguar,E-PACE,2.0,4,24,Semi-Automatic,9,2050,2750,371
+Jaguar,E-PACE P300,2.0,4,23,Semi-Automatic,9,2100,3000,379
+Jaguar,F-PACE,2.0,4,24,Semi-Automatic,8,2050,2750,365
+Jaguar,F-PACE,3.0,6,20,Semi-Automatic,8,2450,4750,446
+Jaguar,F-PACE,5.0,8,18,Semi-Automatic,8,2700,6000,488
+Jaguar,F-PACE 30t,2.0,4,24,Semi-Automatic,8,2050,2750,373
+Jeep,Cherokee 4X4,2.0,4,24,Automatic,9,1700,1000,369
+Jeep,Cherokee 4X4,2.4,4,24,Automatic,9,1700,1000,370
+Jeep,Cherokee 4X4,3.2,6,22,Automatic,9,1850,1750,400
+Jeep,Cherokee 4x4 Active Drive II,2.0,4,23,Automatic,9,1750,1250,387
+Jeep,Cherokee 4x4 Active Drive II,3.2,6,21,Automatic,9,1950,2250,416
+Jeep,Cherokee Trailhawk 4X4,2.0,4,22,Automatic,9,1850,1750,400
+Jeep,Cherokee Trailhawk 4X4,3.2,6,21,Automatic,9,1950,2250,432
+Jeep,Compass 4X4,2.4,4,25,Automatic,9,1600,500,358
+Jeep,Compass 4X4,2.4,4,25,Manual,6,1600,500,355
+Jeep,Renegade 4x4,1.3,4,26,Automatic,9,1550,250,348
+Jeep,Renegade 4x4,2.4,4,24,Automatic,9,1700,1000,371
+Jeep,Renegade Trailhawk 4x4,1.3,4,24,Automatic,9,1700,1000,370
+Jeep,Wrangler 4x4,2.0,4,23,Automatic,8,1750,1250,388
+Jeep,Wrangler 4x4,3.6,6,20,Automatic,8,2000,2500,440
+Jeep,Wrangler 4x4,3.6,6,20,Manual,6,2000,2500,446
+Jeep,Wrangler Unlimited 4x4,2.0,4,21,Automatic,8,1950,2250,423
+Jeep,Wrangler Unlimited 4x4,2.0,4,21,Automatic,8,1950,2250,414
+Jeep,Wrangler Unlimited 4x4,3.6,6,20,Automatic,8,2000,2500,444
+Jeep,Wrangler Unlimited 4x4,3.6,6,20,Automatic,8,2000,2500,451
+Jeep,Wrangler Unlimited 4x4,3.6,6,19,Manual,6,2150,3250,459
+KIA MOTORS CORPORATION,Sorento AWD,2.4,4,23,Semi-Automatic,6,1750,1250,389
+KIA MOTORS CORPORATION,Sorento AWD,3.3,6,20,Semi-Automatic,8,2000,2500,436
+KIA MOTORS CORPORATION,Sportage AWD,2.0,4,21,Semi-Automatic,6,1950,2250,421
+KIA MOTORS CORPORATION,Sportage AWD,2.4,4,23,Semi-Automatic,6,1750,1250,386
+KIA MOTORS CORPORATION,Telluride AWD,3.8,6,21,Semi-Automatic,8,1950,2250,426
+Land Rover,Discovery Sport,2.0,4,21,Semi-Automatic,9,2300,4000,427
+Land Rover,Discovery Sport MHEV,2.0,4,21,Semi-Automatic,9,2300,4000,422
+Land Rover,Evoque,2.0,4,23,Semi-Automatic,9,2100,3000,394
+Land Rover,Evoque MHEV,2.0,4,23,Semi-Automatic,9,2100,3000,389
+Land Rover,Range Rover Velar,2.0,4,23,Semi-Automatic,8,2100,3000,384
+Land Rover,Range Rover Velar,3.0,6,20,Semi-Automatic,8,2450,4750,439
+Land Rover,Range Rover Velar,5.0,8,17,Semi-Automatic,8,2850,6750,511
+Land Rover,Range Rover Velar P300,2.0,4,22,Semi-Automatic,8,2200,3500,399
+Land Rover,Range Rover Velar P380,3.0,6,20,Semi-Automatic,8,2450,4750,439
+LEXUS,NX 300 AWD,2.0,4,24,Semi-Automatic,6,2050,2750,362
+LEXUS,NX 300 AWD F SPORT,2.0,4,24,Semi-Automatic,6,2050,2750,374
+LEXUS,NX 300h AWD,2.5,4,31,Selectable Continuously Variable (e.g. CVT with paddles),6,1300,,285
+LEXUS,RX 350 AWD,3.5,6,22,Semi-Automatic,8,1850,1750,405
+LEXUS,RX 350L AWD,3.5,6,21,Semi-Automatic,8,1950,2250,432
+Lincoln,CORSAIR AWD,2.0,4,24,Semi-Automatic,8,1700,1000,369
+Lincoln,CORSAIR AWD,2.3,4,24,Semi-Automatic,8,1700,1000,372
+Lincoln,NAUTILUS AWD,2.0,4,22,Semi-Automatic,8,1850,1750,401
+Lincoln,NAUTILUS AWD,2.7,6,21,Semi-Automatic,8,1950,2250,417
+Mercedes-Benz,AMG GLC 43 4MATIC,3.0,6,21,Automatic,9,2300,4000,431
+Mercedes-Benz,AMG GLC 43 4MATIC (coupe),3.0,6,21,Automatic,9,2300,4000,432
+Mercedes-Benz,AMG GLC 63 4MATIC+,4.0,8,18,Automatic,9,2700,6000,489
+Mercedes-Benz,AMG GLC 63 4MATIC+ (coupe),4.0,8,18,Automatic,9,2700,6000,489
+Mercedes-Benz,AMG GLC 63 S 4MATIC+ (coupe),4.0,8,18,Automatic,9,2700,6000,489
+Mercedes-Benz,GLA 250 4MATIC,2.0,4,26,Automated Manual,7,1900,2000,340
+Mercedes-Benz,GLB 250 4MATIC,2.0,4,26,Automated Manual,8,1900,2000,338
+Mercedes-Benz,GLC 300 4MATIC,2.0,4,24,Automatic,9,2050,2750,377
+Mercedes-Benz,GLC 300 4MATIC (Coupe),2.0,4,24,Automatic,9,2050,2750,374
+Mercedes-Benz,GLE 350,2.0,4,22,Automatic,9,2200,3500,397
+Mercedes-Benz,GLE 350 4MATIC,2.0,4,22,Automatic,9,2200,3500,404
+Mitsubishi Motors Corporation,ECLIPSE CROSS 4WD,1.5,4,25,Selectable Continuously Variable (e.g. CVT with paddles),8,1600,500,347
+Mitsubishi Motors Corporation,ECLIPSE CROSS ES 4WD,1.5,4,26,Selectable Continuously Variable (e.g. CVT with paddles),8,1550,250,337
+Mitsubishi Motors Corporation,OUTLANDER 4WD,2.4,4,26,Selectable Continuously Variable (e.g. CVT with paddles),6,1550,250,341
+Mitsubishi Motors Corporation,OUTLANDER 4WD,3.0,6,22,Semi-Automatic,6,2200,3500,402
+Mitsubishi Motors Corporation,OUTLANDER SPORT 4WD,2.0,4,26,Selectable Continuously Variable (e.g. CVT with paddles),6,1550,250,344
+Mitsubishi Motors Corporation,OUTLANDER SPORT 4WD,2.4,4,25,Selectable Continuously Variable (e.g. CVT with paddles),6,1600,500,353
+NISSAN,PATHFINDER 4WD,3.5,6,22,Continuously Variable,1,1850,1750,401
+NISSAN,PATHFINDER 4WD PLATINUM,3.5,6,21,Continuously Variable,1,1950,2250,414
+NISSAN,ROGUE AWD,2.5,4,27,Continuously Variable,1,1500,,324
+Porsche,Macan,2.0,4,21,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2300,4000,426
+Porsche,Macan S,3.0,6,20,Automated Manual- Selectable (e.g. Automated Manual with paddles),7,2450,4750,438
+Subaru,CROSSTREK AWD,2.0,4,30,Selectable Continuously Variable (e.g. CVT with paddles),8,1350,,298
+Subaru,CROSSTREK AWD,2.0,4,25,Manual,6,1600,500,355
+Subaru,FORESTER AWD,2.5,4,29,Selectable Continuously Variable (e.g. CVT with paddles),7,1400,,309
+Subaru,OUTBACK AWD,2.4,4,26,Selectable Continuously Variable (e.g. CVT with paddles),8,1550,250,343
+Subaru,OUTBACK AWD,2.5,4,29,Selectable Continuously Variable (e.g. CVT with paddles),8,1400,,308
+TOYOTA,RAV4 AWD,2.5,4,29,Semi-Automatic,8,1400,,301
+TOYOTA,RAV4 AWD,2.5,4,28,Semi-Automatic,8,1450,,315
+TOYOTA,RAV4 AWD LE,2.5,4,30,Semi-Automatic,8,1350,,296
+TOYOTA,RAV4 AWD TRD OFFROAD,2.5,4,27,Semi-Automatic,8,1500,,321
+TOYOTA,RAV4 HYBRID AWD,2.5,4,40,Selectable Continuously Variable (e.g. CVT with paddles),6,1000,,223
+Volkswagen,Atlas Cross Sport 4Motion,2.0,4,20,Semi-Automatic,8,2000,2500,439
+Volkswagen,Tiguan 4Motion,2.0,4,23,Semi-Automatic,8,1750,1250,388
+"Volvo Cars of North America, LLC",XC40 AWD,2.0,4,25,Semi-Automatic,8,1950,2250,352
+"Volvo Cars of North America, LLC",XC60 AWD,2.0,4,23,Semi-Automatic,8,2100,3000,387
+"Volvo Cars of North America, LLC",XC60 AWD,2.0,4,23,Semi-Automatic,8,2100,3000,386
